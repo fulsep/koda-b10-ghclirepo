@@ -1,0 +1,28 @@
+{
+  "name": "javascript-example",
+  "version": "1.0.0",
+  "description": "this is my first javascript program",
+  "keywords": [
+    "basic",
+    "cli"
+  ],
+  "license": "MIT",
+  "author": "fulsep",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs",
+    "lint": "eslint *.mjs **/*.mjs *.js *.cjs",
+    "lint:fix": "eslint *.mjs **/*.mjs *.js *.cjs --fix"
+  },
+  "dependencies": {
+    "moment": "^2.31.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0"
+  }
+}
