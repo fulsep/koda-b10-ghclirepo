@@ -1,9 +1,4 @@
-function sum(x,y){
-  const result = x+y;
-  return result;
-}
+import {sum, divide} from "./lib/calc.mjs";
 
-sum(1,3);
-sum(2,5);
-sum(6,10);
-sum(10,10);
+console.log(sum(1,2));
+console.log(divide(10,2));
